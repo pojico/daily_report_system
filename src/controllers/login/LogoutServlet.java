@@ -31,6 +31,7 @@ public class LogoutServlet extends HttpServlet {
     request.getSession().removeAttribute("login_employee");
 
     request.getSession().setAttribute("flush", "ログアウトしました。");
+    response.sendRedirect(request.getContextPath() + "/login");
     }
 
 }
