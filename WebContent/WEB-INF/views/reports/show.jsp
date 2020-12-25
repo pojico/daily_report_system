@@ -20,7 +20,7 @@
                         <tr>
                             <th>内容</th>
                             <td>
-                            <pre></pre><c:out value="${report.content}" /></pre>
+                            <pre><c:out value="${report.content}" /></pre>
                             </td>
                         </tr>
                         <tr>
